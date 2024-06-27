@@ -1,0 +1,22 @@
+{
+    "name": "stopudow/sitemap-generator",
+	"type": "library",
+    "description": "This package creates sitemaps for websites in XML, JSON, and CSV formats. Choose the format and parameters what you like and generate your sitemap easily.",
+	"keywords": ["sitemap","generator"],
+    "homepage": "https://github.com/stopudow/sitemap-generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stopudow",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0"
+    },
+	"autoload": {
+        "psr-0": {
+            "SitemapGenerator": "source"
+        }
+    }
+}
